@@ -602,7 +602,7 @@ export default function Home() {
             </p>
           </div>
           <div className="relative">
-            <div className="mt-14 2xl:mt-[60px] grid grid-cols-3 gap-5 ">
+            <div className="mt-14 2xl:mt-[60px] grid sm:grid-cols-3 gap-5 ">
               <div className="keen-slider__slide number-slide1 ">
                 <div data-aos="fade-up-left">
                   <div className="overflow-x-hidden 3xl:w-[410px] group relative">
