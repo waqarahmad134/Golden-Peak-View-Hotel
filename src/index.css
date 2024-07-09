@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+  
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-secondary{
+  height: 52px;
+        width: 170px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+    font-family: Cormorant Garamond, serif;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .3s;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-secondary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(193 157 104 / var(--tw-border-opacity));
+}
+
+.Container {
+  width: 80%;
+  margin: auto;
+}
+
+.bHSWqp{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bHSWqp .top-btn{
+  font-size: 1.2rem;
+  width: 3rem;
+  height: 3rem;
+  color: rgb(193, 157, 104);
+  background-color: transparent;
+  border: 3px dotted rgb(193, 157, 104);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bHSWqp .top-btn--icon {
+  animation :1.2s linear 0s infinite alternate-reverse none running gototop
+}
